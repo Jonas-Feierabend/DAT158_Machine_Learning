@@ -57,12 +57,10 @@ for x in range(1,max_num+1):
                 independent_parts += 1 
         possibilities = 2** (independent_parts) 
         if(clause in is_true): 
-            print("already true ", clause ) 
             true_val += clause[0]
             false_val += clause[0]
         # x not contained 
         elif ((x not in clause[1] and -x not in clause[1])):
-            print("not contained", clause) 
             
             """what to do here"""
             #true_val +=val * clause[0]

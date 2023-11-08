@@ -1,7 +1,8 @@
 import copy
 """config"""
-I = [[2,3], [4,3], [3,4], [3,3], [4,7]] # items (size, value) 
-B = 7  #backpack size
+
+I = [[3,5], [2,3],[2,2],[4,5],[3,4],[1,2]]# items (size, value)
+B = 10  #backpack size
 remove_dominating = True
 
 """ remove dominating function"""
