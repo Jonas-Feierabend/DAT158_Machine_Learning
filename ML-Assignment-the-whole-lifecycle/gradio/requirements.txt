@@ -1,0 +1,9 @@
+pandas
+gradio
+joblib
+sklearn
+scikit-learn==1.2.2
+sktime
+mlflow
+numpy
+matplotlib
