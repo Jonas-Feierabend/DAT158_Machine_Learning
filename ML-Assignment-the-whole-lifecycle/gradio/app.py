@@ -35,8 +35,8 @@ def show_plot(data):
     # Speichere den Graphen als Bild
     plt.savefig("output_plot.png")
 
-    # Zeige den erstellten Graphen
-    plt.show()
+    # alte graphen löschen 
+    plt.clf()
 
     # Rückgabe des Dateipfads für das erstellte Bild
     return "output_plot.png"
